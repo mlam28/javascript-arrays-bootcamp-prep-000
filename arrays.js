@@ -1,6 +1,6 @@
 var chocolateBars = [ "snickers", "hundred grand", "kitkat", "skittles"]
 
-<<<<<<< HEAD
+
 function addElementToBeginningOfArray(array, element) {
   return [element, ...array]
 }
@@ -39,7 +39,7 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 
 function removeElementFromEndOfArray(array) {
   return array.slice(0, array.length - 1)
-=======
+
 function addElementToBeginningofArray(array, element) {
   var fruits = ["orange", "lemon"];
   fruits = ["strawberry", ...fruits];
@@ -49,5 +49,4 @@ function addElementToBeginningofArray(array, element) {
 function destructivelyAddElementToBeginningofArray(array, element) {
   var consecutive = [ 1, 2, 3, 4]
   return consecutive[0] = 0
->>>>>>> 4b16c74b69f991208625739ef35d688cdca62084
 }
